@@ -1,0 +1,21 @@
+{
+    "name": "redaelfillali/google-analytics-events",
+    "description": "Send events to Google Analytics (GA4) via Measurement Protocol",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Redaelfillali\\GoogleAnalyticsEvents\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Redaelfillali\\GoogleAnalyticsEvents\\GoogleAnalyticsEventsServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^9|^10|^11"
+    }
+}
