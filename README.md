@@ -64,7 +64,7 @@ return [
 ### Send an event manually
 
 ```php
-use Reda\GoogleAnalyticsEvents\GoogleAnalyticsService;
+use Redaelfillali\GoogleAnalyticsEvents\GoogleAnalyticsService;
 
 app(GoogleAnalyticsService::class)->sendEvent('form_submission', [
     'form_id' => 'contact',
