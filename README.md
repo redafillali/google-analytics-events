@@ -22,23 +22,13 @@ A lightweight Laravel package that sends events to **Google Analytics 4 (GA4)** 
 If installed locally (recommended for development):
 
 ```bash
-composer require reda/google-analytics-events
-```
-
-> Or add your local package repo via `composer.json`:
-```json
-"repositories": [
-  {
-    "type": "path",
-    "url": "./packages/reda/google-analytics-events"
-  }
-]
+composer require redaelfillali/google-analytics-events
 ```
 
 Then install:
 
 ```bash
-composer require reda/google-analytics-events
+composer require redaelfillali/google-analytics-events
 ```
 
 ### 2. Publish the config
@@ -104,7 +94,7 @@ To see real-time incoming events.
 ## 📁 Package Structure
 
 ```
-reda/google-analytics-events/
+redaelfillali/google-analytics-events/
 ├── src/
 │   ├── GoogleAnalyticsService.php
 │   └── GoogleAnalyticsEventsServiceProvider.php
