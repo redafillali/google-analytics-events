@@ -1,6 +1,6 @@
 <?php
 
-namespace Reda\GoogleAnalyticsEvents;
+namespace Redaelfillali\GoogleAnalyticsEvents;
 
 use Illuminate\Support\ServiceProvider;
 
